@@ -1,0 +1,89 @@
+.select-main-container{
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url("../Componenets/Jaya.svg");
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.3);
+}
+.content-sub-section{
+    width: 500px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+    height: 500px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.3);
+    background-color: #fff;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+   
+}
+.name-div-container{
+   height: 80px;
+   background-color: rgba(0,0,0,0.1);
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
+   width: 500px;
+}
+.name-div-container p{
+    font-weight: 800;
+}
+.profile-mapping-div img{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+.profile-mapping-div p{
+    font-size: 15px;
+}
+.profile-mapping-div{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    cursor: pointer;
+    padding: 10px 0px 10px 10px;
+    width: 450px;
+    margin: auto;
+    border-bottom: 1px solid rgb(215, 215, 215);
+}
+.scroll-div-container{
+    height: 400px;
+    width: 500px;
+    background-color: #fff;
+    overflow-y: scroll;
+}
+.scroll-div-container::-webkit-scrollbar{
+ width: 5px;
+ border-radius: 10px !important;
+}
+.scroll-div-container::-webkit-scrollbar-track {
+    cursor: pointer;
+  }
+.scroll-div-container::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: grey;
+  }
+@media(max-width:1030px){
+.content-sub-section{
+    width: 100% !important;
+    padding: 0px 10px;
+    background-color: #fff;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.3) ;
+}   
+.scroll-div-container{
+    width: 100% !important;
+}
+.name-div-container{
+width: 100% !important;
+}
+.profile-mapping-div{
+ width: 100% !important;
+}
+}
